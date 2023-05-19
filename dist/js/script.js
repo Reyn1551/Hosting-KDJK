@@ -28,7 +28,6 @@ hamburger.addEventListener("click", function () {
 
 window.addEventListener("click", function (e) {
     if (e.target != hamburger && e.target != navMenu) {
-        console.log("coba");
         hamburger.classList.remove("hamburger-active");
         navMenu.classList.add("hidden");
     }
